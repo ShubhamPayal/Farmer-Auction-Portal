@@ -1,0 +1,41 @@
+.Profile #container {
+  background: #ffff;
+  min-height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.Profile .img-container {
+  margin: 4rem auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Profile .avatar {
+  border-radius: 50%;
+  width: 10rem;
+  height: 10rem;
+  box-shadow: 0 0 0 8px #ffffff;
+  transition: all 0.5s ease-in-out;
+}
+
+.Profile .avatar:hover {
+  box-shadow: 0 0 0 12px #50c878;
+}
+
+.Profile h1 {
+  text-align: center;
+  font-size: 24px;
+  font-weight: 300;
+  text-shadow: 0.5px 0.5px 0.5px #444444;
+  margin: 0;
+}
+
+.Profile h2 {
+  text-align: center;
+  font-size: 24px;
+  font-weight: 300;
+  color: gray;
+  margin: 0;
+}
